@@ -1,8 +1,7 @@
-from lib import Point
+from lib import Window
+from lib2 import User
 
 
-a = Point(10, 20)
-b = Point(100, 200)
-a.setCoor(40, 50)
-print(b.getCoor())
-print(a.getCoor())
+bd = [User() for i in range(10)]
+bd[0].name = 'ilya'
+print(bd[0].name)
